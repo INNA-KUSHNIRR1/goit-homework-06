@@ -676,6 +676,8 @@ input {
 @media only screen and (min-width: 1158px) {
   .container.footer {
     align-items: baseline;
+    padding-left: 15px;
+    column-gap: 0;
   }
 }
 
@@ -694,7 +696,8 @@ input {
 }
 
 @media only screen and (min-width: 1158px) {
-   {
+  .footer-wrapper {
+    margin-right: 120px;
   }
 }
 
@@ -704,8 +707,8 @@ input {
   width: 100%;
   margin-right: 0;
   align-items: center;
-  /*margin-left: auto;
-  margin-right: auto;*/
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo-style {
@@ -748,6 +751,7 @@ input {
 
 @media only screen and (min-width: 1158px) {
   .footer-social {
+    margin-right: 80px;
   }
 }
 
@@ -854,6 +858,12 @@ input {
     min-width: 264px;
   }
 }
+@media only screen and (min-width: 1158px) {
+  .form-input-subscribe {
+    margin-bottom: 0;
+  }
+}
+
 .form-input-subscribe::placeholder {
   color: #ffffff;
 }
